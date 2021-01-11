@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 const Alert = props => {
+    
 	let colorClass = "alert-danger";
 
 	if (props.color == "red") colorClass = "alert-danger";
